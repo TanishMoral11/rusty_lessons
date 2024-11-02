@@ -1,1 +1,12 @@
-/target
+/target# Ignore target directories
+**/target/
+
+# Ignore Cargo.lock
+**/Cargo.lock
+
+# Ignore binary files
+**/*.exe
+**/*.pdb
+
+# Keep main.rs
+!**/main.rs
